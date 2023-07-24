@@ -1,0 +1,448 @@
+
+
+body {
+
+    overflow-x: hidden; 
+    font-family:'Times New Roman', Times, serif;
+}
+
+h1 {
+    position: absolute;
+    top: 30px;
+    left: 100px;
+    width: 228px;
+    height: 48px;
+    color: #fff;
+}
+
+.header-container {
+    background-color: #141024;
+    width: 1920px;
+    height: 1080px;
+}
+
+.tel a {
+    position: absolute;
+    width: 255px;
+    height: 48px;
+    top: 30px;
+    left: 1565px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.girl {
+    position: absolute;
+    width: 515.52px;
+    height: 917.48px;
+    top: 162.52px;
+    left: 1056.99px;
+}
+
+.header-two {
+    position: absolute;
+    width: 516px;
+    height: 112px;
+    top: 344px;
+    left: 380px;
+}
+
+.header-two {
+    font-size: 70px;
+    color: #fff;
+}
+
+.representing-text {
+    position: absolute;
+    width: 478px;
+    height: 64px;
+    top: 476px;
+    left: 380px;
+    color: #fff;
+    font-size: 20px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.menu li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.menu {
+    position: absolute;
+    width: 324px;
+    height: 32px;
+    top: 38px;
+    left: 798px;
+}
+
+.menu a {
+    font-size: 20px;
+    width: 400;
+    color: #fff;
+}
+
+.write-on-courese {
+
+    position: absolute;
+    
+    padding: 25px 54px 25px 54px;
+
+    margin-top: 61px;
+
+    color: #fff;
+
+    border-radius: 5px;
+
+    background-color: red;
+
+    width: 260px;
+
+    height: 79px;
+
+    top: 590px;
+
+    left: 380px;
+
+}
+
+.write-on-courese:hover {
+    cursor:pointer;
+}
+
+
+.definition-container {
+    position: absolute;
+    background-color: #fff;
+    width: 891px;
+    height: 144px;
+    top: 1200px;
+    left: 380px;
+    font-size: 30px;
+    line-height: 48px;
+}
+
+
+.achievements-block {
+    position: absolute;
+    left: 380px;
+    top: 1404px;
+    width:1200px;
+}
+
+
+.count-list {
+    display: flex;
+    flex-direction: row; 
+
+  }
+  
+  .achievements-block .item {
+    font-size: 70px;
+    color: #D52027;
+    margin-right: 220px;
+  }
+  
+  .explanation-course .description {
+    color: #141024B2;
+  }
+
+  .achievements-block .description {
+    color: #141024B2;
+  }
+
+  .presentation-coaches .description {
+    color: #141024B2;
+  }
+
+  .achievements-block .description {
+    align-items: center;
+    font-size: 18px;
+    display: flex;
+    margin-top: 15px;
+    display: block;
+    width: 260px; 
+    height: 58px; 
+    margin-right: 40px;
+
+  }
+
+  .explanation-course {
+    position: absolute;
+    width: 1920px;
+    height: 485px;
+    top: 1694px;
+    padding-top: 100px;
+    background-color: #F9F9F9;
+    left: -1px;
+}
+
+
+#header-explanation {
+    margin-left: 381px;
+    font-weight: bold;
+    color: #000;
+    font-size: 50px;
+}
+
+.explanation-list {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 381px;
+}
+
+.explanation-course .description {
+    align-items: center;
+    font-size: 18px;
+    display: flex;
+    margin-top: 20px;
+    margin-right: 40px;
+    display: block; 
+    width: 360px; 
+    height: 87px; 
+}
+
+.explanation-course .item {
+    font-size: 18px;
+    color: #141024;
+    font-weight: bold;
+    margin-right: 230px;
+}
+
+.presentation-coaches {
+    position: absolute;
+    width: 1560px;
+    height: 886px;
+    top: 2299px;
+    left: 380px;
+}
+
+.coaches-list {
+    display: flex;
+    margin-top: 60px;
+}
+
+#header-coaches {
+    width: 683px;
+    height: 80px;
+    top: 2299px;
+    left: 380px;
+    color: #141024;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.coaches-img {
+    margin-right: 40px;
+}
+
+.presentation-coaches .description {
+    margin-top: 20px;
+}
+
+.presentation-coaches .name {
+    font-weight: bold;
+    color: #141024;
+    display: block;
+    width: 200px;
+    height: 38px;
+    font-size: 24px;
+}
+
+.presentation-coaches .detail {
+    display: block;
+    color: red;
+    width: 93px;
+    height: 29px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.choose_package {
+    position: absolute;
+    width: 1160px;
+    height: 640px;
+    top: 3305px;
+    left: 380px;
+}
+
+#choose-header {
+    width: 573px;
+    height: 80px;
+    top: 3305px;
+    left: 380px;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 80px;
+}
+
+.package-list {
+    display: flex;
+    margin-top: 60px;
+    text-align: center;
+}
+
+.package-list li {
+    border: 1px solid #14102433;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    height: 460px;
+    width: 360px;
+    padding-top: 40px;
+    border-radius: 20px;
+}
+
+.package-list .header {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.package-list .price {
+    margin-top: 63px;
+    font-size: 50px;
+}
+
+.package-list .description {
+    display: block;
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.package-list .application-form {
+
+    display: inline-block;
+
+    padding: 25px 54px 25px 54px;
+
+    margin-top: 61px;
+
+    color: #fff;
+
+    border-radius: 5px;
+
+    background-color: red;
+
+    width: 280px;
+
+    height: 79px;
+
+    margin-left: 40px;
+}
+
+.package-list .application-form:hover {
+    cursor: pointer;
+}
+
+.package-list li:hover {
+    transform: scale(1.1);
+    background-color: #141024;
+    color: #fff;
+}
+
+
+.write-form-container {
+    position: absolute;
+    width: 1920px;
+    height: 460px;
+    top: 4065px;
+    background-color: #D52027;
+}
+
+.write-form-container h3 {
+    margin-top: 106px;
+    margin-left: 440px;
+    color: #fff;
+
+    width: 476px;
+    height: 94px;
+    font-size: 36px;
+}
+
+.write-form-container span {
+    color: #fff;
+    margin-left: 440px;
+}
+
+form {
+    top: 4152px;
+    width: 500px;
+    height: 286px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: -115px;
+    margin-left: 980px;
+}
+
+form input {
+    border-radius: 5px;
+    width: 500px;
+    height: 64px;
+    font-size: 18px;
+}
+
+.submit {
+    background-color: #141024;
+    color: #fff;
+}
+
+.submit:hover {
+    cursor: pointer;
+}
+
+
+.footer-container {
+    position: absolute;
+    width: 1920px;
+    height: 159px;
+    top: 4525px;
+    background-color: #141024;
+}
+
+.tel-footer a {
+
+    width: 255px;
+    height: 48px;
+
+    font-size: 30px;
+    color: #fff;
+}
+
+.tel-footer a {
+    color: #fff;
+    position: absolute;
+    left: 1565px;
+    display: block;
+    margin-top: -71px;
+
+}
+
+.footer-header {
+    font-size: 30px;
+    line-height: 48px;
+    color: #fff;
+    width: 478px;
+    height: 48px;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+
+.copyright {
+    color: #FFFFFFB2;
+    margin-left: 100px;
+    font-size: 16px;
+    display: block;
+    width: 129px;
+    height: 26px;
+    margin-top: 0px;
+}
+
+
+
+
